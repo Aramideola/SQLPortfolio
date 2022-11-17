@@ -1,0 +1,8 @@
+select
+*
+from 
+tracks
+where 
+composer = 'Chris Cornell'
+order by 
+genreid desc 
