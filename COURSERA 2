@@ -1,0 +1,6 @@
+select
+ *
+from
+ Invoices
+where
+ billingcountry = "Germany" and total > 5
