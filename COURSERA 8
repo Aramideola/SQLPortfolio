@@ -1,0 +1,7 @@
+SELECT
+album_id,
+SUM(milliseconds) AS total_duration
+FROM
+track
+Group by 
+album_id
