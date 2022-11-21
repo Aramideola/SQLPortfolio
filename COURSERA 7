@@ -1,0 +1,9 @@
+SELECT 
+invoice_line_id,
+invoice_id,
+unit_price,
+quantity,
+(unit_price * quantity) as line_total
+FROM
+invoice_item 
+LIMIT 5
