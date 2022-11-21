@@ -1,0 +1,10 @@
+SELECT
+track_id,
+track_name,
+composer,
+milliseconds,
+(milliseconds/1000) as secs
+FROM
+track
+WHERE
+composer = "Johann Sebastian Bach"
